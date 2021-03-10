@@ -8,6 +8,7 @@ laravelで作成した[サイト](https://dokusika.deca.jp/)を一部apiサー�
 ### アプリ機能
 apiサーバー  
 登録情報取得  
+リアルタイムバリデーション  
 お問い合わせ確認自動返信  
 SPA  
 axios  
