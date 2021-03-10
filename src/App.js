@@ -1,6 +1,7 @@
 import './App.css';
 import Qualification from './quali.js';
 import Contact from './contact.js';
+// import Test from './test.js';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {

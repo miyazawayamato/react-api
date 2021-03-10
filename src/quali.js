@@ -8,18 +8,13 @@ const Qualification = () => {
     const [rend, setRend] = useState(indiv);
     const [qualis, setQualis] = useState([]);
     
-    // const fetchall = async () => {
-    //     const res = await axios.get('https://dokusika.deca.jp/api/qualis');
-    //     setQualis(res.data.data);
-    // }
-    // fetchall();
-    
     useEffect(()=> {
         const fetchall = async () => {
             const res = await axios.get('https://dokusika.deca.jp/api/qualis');
             setQualis(res.data.data);
         }
         fetchall();
+        
     },[])
     
     
